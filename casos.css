@@ -1,0 +1,27 @@
+/* Caso 1 */
+/* Previsão: Como no estilo.css não tem regra de cor aplicada ao texto, ele vai ficar com a cor escolhida em --cor-marca */
+/* Conferido:  */
+.aviso strong {
+ color: var(--cor-marca);
+}
+strong {
+ color: var(--cor-texto-suave);
+}
+/* Caso 2 */
+/* Previsão: O texto "Procurar Produto" vai ficar com a cor definina em --cor-marca  */
+/* Conferido:  */
+.busca label {
+ color: var(--cor-marca);
+}
+label[for] {
+ color: var(--cor-texto-suave);
+}
+/* Caso 3 */
+/* Previsão: O fundo vai alterar para --cor-marca e o texto para --cor-texto */
+/* Conferido:  */
+.rodape-site {
+ color: var(--cor-marca);
+}
+footer p {
+ color: var(--cor-texto);
+}

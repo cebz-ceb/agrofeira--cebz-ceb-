@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ptBR">
+    <head>
+        <meta charset="utd-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Agrofeira Paragominas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstaic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel=""stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="tokens.css">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="casos.css">
+    </head>
+
+    <body>
+    <a class="pular" href="#main">Pular para o conteúdo</a>
+    <header class="cabecalho-site">
+      <h1>AgroFeira Paragominas</h1>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="index.html" aria-current="page">Página Inicial</a></li>
+          <li><a href="safra.html">Safra</a></li>
+          <li><a href="cadastro-produtor.html">Cadastro de Produtor</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <p>Venha saber mais sobre a nossa <a href="#sobreAgrofeira">feira</a> e conhecer os nossos <a href="#produtos">produtos</a>.</p>
+      
+      <section>
+        <h2 id="sobreAgrofeira">O que é a Agrofeira?</h2>
+        <p>A AgroFeira é um projeto <em>regional</em>, voltado para a população de Produtores Rurais da Colônia do Uraim e demais assentamentos da região.</p>
+        <p>Cada família leva o que produziu e vende diretamente ao consumidor final.</p>
+
+        <figure class="figura-destaque">
+          <img src="feira-330.jpg" width="330" height="247"
+            srcset="feira-330.jpg 330w, feira-1280.jpg 1280w"
+            sizes="330px"
+            alt="Barraca de Feira com diversos produtos">
+        <figcaption>Foto: Rayelle da Silva Freitas, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+        </figure>
+
+        <search>
+          <form class="busca">
+            <label for="busca_produto">Procurar Produto</label>
+            <input type="search" id="busca_produto" name="busca">
+            <button type="submit">
+              <img src="lupa.png" width="40" height="40" alt="Procurar Produto">
+            </button>
+          </form>
+        </search>
+      </section>
+
+      <section>
+        <h2 id="produtos">Conheça os Produtos:</h2>
+          <ul class="lista-produtos">
+            <li class="cartao-produto">Mandioca - Saca de 60 Kg</li>
+            <li class="cartao-produto">Banana-prata - Cacho</li>
+            <li class="cartao-produto">Açaí - Rasa</li>
+            <li class="cartao-produto">Pimenta-do-Reino - Quilo</li>
+            <li class="cartao-produto">Cupuaçu - Quilo</li>
+            <li class="cartao-produto">Alface - Maço</li>
+          </ul>
+        <div class="aviso">
+          <p><strong>Aviso Importante:</strong> Os preços sofrem alteração toda semana!</p>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Venha nos Visitar</h2>
+      <p>Endereço: Rua Florianópolis, S/N</p>
+      <p>Horário: Todo Sábado das 06:00 às 17:00</p>
+    </aside>
+
+    <footer class="rodape-site">
+      <p>Agricultura familiar de Paragominas</p>
+      <p>Por Thiago Araujo</p>
+    </footer>
+  </body>
+</html>
